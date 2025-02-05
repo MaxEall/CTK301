@@ -1,0 +1,28 @@
+h2{
+    color: darkcyan;
+    background-color: gray;
+
+}
+
+.nav{
+color: blue;
+}
+h1{
+    color: orange ;
+    background-color: gray;
+}
+h3{
+    color: aquamarine;
+    background-color:  gray;
+
+}
+a{
+color: red;
+}
+a:visited{
+ color: green;
+}
+
+a:hover{
+    color: yellow;
+}
