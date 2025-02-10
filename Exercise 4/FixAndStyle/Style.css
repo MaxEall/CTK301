@@ -1,0 +1,50 @@
+.red{
+    color: red;
+}
+.background{
+    background-color:mediumpurple;
+}
+.yellowBack{
+    background-color: yellow;
+}
+.greenBack{
+    background-color: palegreen;
+}
+.orangeBold{
+    color: orange;
+    font-weight: bold;
+}
+.blueBold{
+    color: blue;
+    font-weight: bold;
+}
+h1{
+    color: white;
+}
+h2{
+    color: blueviolet;
+}
+h3{
+    background-color: yellow;
+}
+h4{
+    color: yellow;
+    background-color: forestgreen;
+}
+h5{
+color: red;
+}
+a{
+    color: lightgreen;
+    text-decoration: none;
+}
+
+a:visited{
+    color: lightgreen;
+}
+a:hover{
+    color: red;
+    text-decoration :underline ;
+}
+
+
