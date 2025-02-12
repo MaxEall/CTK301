@@ -1,0 +1,33 @@
+
+.Centered{
+    text-align: center;
+}
+.Justice{
+    text-align: justify;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: url(Background.jpg);
+    
+}
+h1,h2,h3,h4{
+ color: orange;
+ font-style: italic;
+ font-weight: normal;
+}
+
+img{
+    background-color: yellow;
+    padding: 10px ;
+    border: 10px solid black;
+}
+
+a{
+    color: red;
+}
+ a:visited{
+     color: green;
+ }   
+ a:hover{
+        color: yellow;
+}
