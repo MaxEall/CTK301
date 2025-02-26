@@ -1,0 +1,102 @@
+body{
+background-image: url(a62.png);
+}
+div{
+    margin: 1em auto;
+    padding: 0;
+    width: 960px;
+    display: grid;
+grid-template-columns: repeat(12, 1fr);
+background-color: white;
+border: black solid 5px;
+grid-column-gap: 24px ;
+}
+main{
+grid-column: span 9;
+}
+header{
+margin: 10px;
+padding-left: 20px;
+grid-column: span 12;
+background-color:  black;
+color:  white;
+}
+h1{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: normal;
+}
+nav{
+grid-column: span 3;
+padding-bottom: 24px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 10px;
+  }
+nav li a {
+    display: block;
+    background-color: red;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    margin: 20px 0px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  nav li a:hover {
+    display: block;
+    background-color:darkred;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+h2{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 900px;
+padding-right: 10px;
+padding-bottom: 24px;
+border-bottom: solid black 3px;
+
+}
+main p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    grid-column: span 8;
+    padding-right: 10px;
+}
+.bold{
+    font-weight: bold;
+}
+
+main img{
+    float: left;
+    margin-right: 24px ;
+    margin-bottom: 24px;
+    border: solid black 3px;
+    padding: 10px
+  }
+
+
+footer{
+    grid-column: span 12;
+    background-color: red;
+    color: white;
+    border-top: black solid 5px;
+}
+main a{
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+main a:hover{
+    color:blue;  
+    font-weight: bold; 
+    text-decoration: underline;
+}
+footer{
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-style: italic;
+}
+
