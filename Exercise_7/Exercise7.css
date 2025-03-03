@@ -1,0 +1,89 @@
+.piza{
+font-style: italic;
+}
+#wrapper{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    width: 960px;
+    margin: 1em auto;
+    grid-column-gap: 12px;
+    border: solid black 3px;
+    background-color: white;
+}
+body{
+    background-image:url(burger.jpg);
+   
+}
+aside{
+    grid-column: span 4;
+    background-color: red;
+    color: white;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    padding: 12px;
+}
+main{
+    grid-column: span 8;
+    padding-left: 12px;
+
+}
+header{
+    grid-column: span 12;
+    background-color:burlywood;
+    color: white;
+    border-bottom: solid black 3px;
+    font-family: Helvetica, sans-serif;
+    padding-left: 12px;
+}
+nav{
+    grid-column: span 12;
+    margin-left: -30px;
+    
+}
+footer{
+    padding-left: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-column: span 12;
+    background-color: burlywood;
+    font-weight: bold;
+    color: white;
+    border-top: solid black 3px;
+}
+aside h2{
+    border-bottom: solid white  3px;
+}
+main h2{
+    border-bottom: solid black  3px;
+}
+.fighter{
+    float: right;
+    margin: 0 0px 0 12px;
+}
+main a{
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul{
+    list-style-type: none;
+    
+}
+nav li{
+    display: inline-block;
+    text-align: center;
+
+}
+
+nav li a{
+    display: block;
+    text-decoration: none;
+    width: 175px;
+    border: solid 3px green;
+    background-color: lime;
+    margin: 10px;
+    padding: 10px;
+    font-weight: Bold;
+    font-family: Helvetica,Arial,sans-serif;
+    color: white;
+
+}
+
