@@ -1,0 +1,135 @@
+#wrapper{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    width: 960px;
+    margin: 1em auto;
+    border: solid darkblue 3px; 
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#topBack{
+    background: linear-gradient(to bottom, lightskyblue, blue);
+    grid-column: span 12;
+}
+body{
+    background-color: lightslategray;
+}
+footer{
+    background-color: red;
+    grid-column: span 12; 
+}
+main{
+    grid-column: span 8;
+    background-color: white;
+    padding:10px;
+}
+main h2{
+    border-bottom: solid blue 3px;
+}
+main a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+main a:hover{
+    color:purple;
+    text-decoration: none;
+    font-weight: bold;
+}
+aside{
+    grid-column: span 4;
+    background-color: lightskyblue;
+}
+nav{
+    grid-column: span 12;
+    margin-left: -40px;
+    margin-bottom: -10px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    display: inline-block;
+    text-align: left;
+    padding-right: 5px;
+}
+nav li a{
+    display: block;
+    text-decoration: none;
+    width: 190px;
+    font-weight: Bold;
+    padding:20px;
+    font-family: Helvetica,Arial,sans-serif;
+    background: linear-gradient(to bottom,lightskyblue, blue);
+    color: aquamarine;
+}
+nav li a:hover{
+    color:azure;
+}
+
+aside{
+    text-align: justify;
+    font-weight: bold;
+    padding:10px;
+}
+aside h2{
+    border-bottom: solid blue 3px;
+}
+header{
+    grid-column: span 12;
+    padding-left: 10px;
+}
+header a{
+    text-decoration: none;
+    color: aquamarine;
+
+}
+header a:hover{
+    color: azure;
+}
+footer{
+    border-top: solid blue 3px ;
+}
+.First{
+    float:left;
+    border: 3px solid blue;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+.Second{
+    float:right;
+    border: 3px solid blue;
+    margin-bottom: 24px;
+    margin-left: 24px;
+}
+#hidden{
+    color: transparent;
+    }
+#hidden a:hover{
+    color:transparent;
+}
+
+
+
+h2{
+    border-bottom: solid blue 3px;
+    color: blue;
+}
+.seg{
+background-color: white;
+margin-right: 12px;
+margin-left: 12px;
+padding: 10px;
+grid-column: span 4;
+}
+.seg img{
+    width: 100%;
+}
+p a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+p a:hover{
+    color:blueviolet;
+}
