@@ -90,9 +90,11 @@ nav li a{
   background-color: rgb(85, 85, 85);
   color:rgb(100, 142, 219); 
   border-radius: 12px;
+  transition: background-color 1.0s, width 2.0s, color 2.0s;
 }
 nav li a:hover{
   color:azure;
+    width: 140px;
   background-color: rgb(125, 125, 125);
 }
 .Socials{
