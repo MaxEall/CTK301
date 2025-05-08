@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home Page</title>
+	<link href="Blank1200px.css" rel="stylesheet" type="text/css">
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
+</head>
+<body>
+	<div id="wrapper">
+		<aside>
+			<h2>Maxwell Eallonardo</h2>
+			<img id="Portrait" src="20250427_195113.jpg" alt="A copyright waterwark" >
+			<h3>3d Artist/Animator</h3>
+			<p>Hello My name is Max and I'm a 3d artist and animation I have been making projects for about 3 years recreationally and now I'm going to school for a bachelors' in game design and development</p>
+			<nav>
+				<ul>
+					<li><a href="Home.html">Home Page</a></li>
+					<li><a href="myWork.html">My Work</a></li>
+					<li><a href="aboutMe.html">About Me</a></li>
+					<li><a href="contactMe.html">Contact Me</a></li>
+				</ul>
+			</nav>
+		</aside>
+		<header>
+			<h1>Home Page</h1>
+		</header>
+		<main>
+			<h2>Projects</h2>
+			<div id="P1">
+				<h3>Rock golem</h3>
+				<div id="myCarousel" class="f-carousel">
+					<div class="f-carousel__slide"><img   src="Screenshot (103).png"></div>
+					<div class="f-carousel__slide"><img   src="Screenshot (105).png"></div>
+					<div class="f-carousel__slide"><img   src="Screenshot (125).png"></div>
+					<div class="f-carousel__slide"> </video>
+						<video width="640" height="360" autoplay controls loop preload="auto" >
+						  <source src="rti.mp4" type="video/mp4"></div>
+					<div class="f-carousel__slide"></video>
+						<video width="640" height="360" autoplay controls loop preload="auto" >
+						  <source src="windup.mp4" type="video/mp4"></div>
+						<div class="f-carousel__slide"><video width="640" height="360" autoplay controls loop preload="auto" >
+							<source src="attack.mp4" type="video/mp4"></div>
+					
+				<p>The Rock golem is the main enemy for the game Clairvoyant its is a boss enemy with multiple animations and simple design. </p>
+			</div>
+
+			<div id="P2">
+				<h3>Scav Robot</h3>
+				<div id="secondCarousel" class="f-carousel">
+					<div class="f-carousel__slide"><img src="maxwell-eallonardo-screenshot-57.png"></div>
+					<div class="f-carousel__slide"><img src="maxwell-eallonardo-screenshot-58.png"></div>
+					<div class="f-carousel__slide"><img src="maxwell-eallonardo-screenshot-60.png"></div>
+					<div class="f-carousel__slide"><img src="maxwell-eallonardo-screenshot-61.png"></div>
+					<div class="f-carousel__slide"><img src="maxwell-eallonardo-screenshot-64.png"></div>
+					<div class="f-carousel__slide"><img src="maxwell-eallonardo-screenshot-2024-09-18-175230.png"></div>
+				<p>section will contain a gallery</p>
+				<p>The Scavanger robot is a work in progress model that is mean to replicate a robot that is meant to travel in areas and scrounge for items of importance</p>
+			</div>
+
+			<div id="P3">
+				<h3>AlarmBot</h3>
+				<div id="thirdCarousel" class="f-carousel">
+					<div class="f-carousel__slide"><img src="maxwell-eallonardo-screenshot-2025-02-26-132417.png"></div>
+					<div class="f-carousel__slide"><img src="maxwell-eallonardo-screenshot-2025-02-26-132034.png"></div>
+					<div class="f-carousel__slide"><img src="maxwell-eallonardo-screenshot-2025-02-06-124356.png"></div>
+				<p>The Alarm bot is a robot for a game in production. It is an alarm system that is uesd to decect the player and as two states Roming and alerted.</p>
+			</div>
+		</main>
+		<footer>
+			<p>All works displayed are my own creations and No Atrifical intellegace was used in the making</p>
+		</footer>
+	</div>
+	<script>
+		const container = document.getElementById("myCarousel");
+		const options = { infinite: false };
+		new Carousel(container, options);
+
+		const container2 = document.getElementById("secondCarousel");
+    const options2 = { infinite: false };
+    new Carousel(container2, options2);
+
+	const container3 = document.getElementById("thirdCarousel");
+    const options3 = { infinite: false };
+    new Carousel(container3, options3);
+
+	const container4 = document.getElementById("fourthCarousel");
+    const options4 = { infinite: false };
+    new Carousel(container4, options4);
+	</script>
+</body>
+</html>
